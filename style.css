@@ -1,0 +1,45 @@
+   *{box-sizing: border-box;}
+    .bg{position: relative;}
+    .bg img{width:100%; height:628px; }
+    .logo img{width:148px; height:40px; float: left;}
+    .gnb{width:90%; margin:auto;}
+    .nav{float: right; width:900px; }
+    .nav ul{display:flex; padding-right: 300px;}
+    .nav ul li{flex:1; text-align: center; padding-top: 10px;}
+    .nav1{border-top: 2px solid green; padding-top: 5px;}
+    .top{position: absolute; width:40%;
+        top: 260px; left:300px; 
+        color: white; margin-top: 10px;
+        }
+    .top p{margin-top: 10px;}
+    .border{position:absolute; top:325px;border-top: 3px solid white; 
+            padding-bottom: 10px; left: 0; width:600px;}
+    .main h1{padding-bottom: 10px; }
+    .festival{display: flex; width:60%; margin: auto; position: fixed; float: right; 
+         position: absolute; right:0; top: 600px;  border: 10px solid white}
+    .festival li{flex: 1; text-align: center; 
+        width:208px; height: 208px; border-right: 10px solid white;} 
+    .festival a{color: white; line-height: 200px; font-size: 27pt;display:block;}
+    .seoul{background-image: url(hoverseoul.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
+    .gyeongju{background-image: url(hoverseoul.png); height: 100px; background-position: center; background-repeat: no-repeat;background-size: cover;}
+    .donghae{background-image: url(hoverseoul.png); height: 100px; background-position: center; background-repeat: no-repeat;background-size: cover;}
+    .red{background-image: url(hoverseoul.png); height: 100px; background-position: center; background-repeat: no-repeat;background-size: cover;}
+    .map{width:42%; float:left;}
+    .seoul:hover{background: green; width:250px; height:220px; opacity:0.7;}
+    .gyeongju:hover{background: orange;; width:250px; height:220px; opacity:0.7;}
+    .donghae:hover{background: blue; width:250px; height:220px; opacity:0.7;}
+    .red:hover{background: red; width:250px; height:220px; opacity:0.7;}
+    .main{position: absolute; top: 880px; right: 890px}
+    .tabs {	width:100%;	display:inline-block;}
+    a:hover{text-decoration: none;}
+.tabs{position: absolute; top:1000px; }
+.tab-links:after {display:block; clear:both; content:'';}
+.tab-links li {margin-right: 5px; float:left; list-style:none;}
+.tab-links a {padding:9px; display:inline-block; background:blue;
+        	font-size:13pt;	font-weight:600; color:white;}
+.tab-links a:hover { background:white;color: blue; text-decoration:none;}
+li.active a{background:blue;color:white;}
+li.active a:hover {color: blue; background: white;}
+.tab-content {width:40%;height: 130px;padding:15px;border:3px solid blue;background:#fff;}
+.tab {display:none;}
+.tab.active {display:block;}
